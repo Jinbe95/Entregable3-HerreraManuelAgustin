@@ -106,13 +106,13 @@ document.addEventListener("DOMContentLoaded", async () => {
         icon: "success",
         title: "¡Gracias por tu compra!",
         html: `
-          <p><strong>Nombre:</strong> ${formValues.nombre} ${formValues.apellido}</p>
-          <p><strong>Domicilio:</strong> ${formValues.direccion}</p>
-          <p><strong>Email:</strong> ${formValues.email}</p>
-          <p><strong>Método de pago:</strong> ${metodoTexto[formValues.metodo]}</p>
-          <p><strong>Total abonado:</strong> $${total}</p>
+          <p style="color: #000000";><strong>Nombre:</strong> ${formValues.nombre} ${formValues.apellido}</p>
+          <p style="color: #000000"><strong>Domicilio:</strong> ${formValues.direccion}</p>
+          <p style="color: #000000"><strong>Email:</strong> ${formValues.email}</p>
+          <p style="color: #000000"><strong>Método de pago:</strong> ${metodoTexto[formValues.metodo]}</p>
+          <p style="color: #000000"><strong>Total abonado:</strong> $${total}</p>
           <br>
-          <p style="font-weight:bold; color:#00fff7;">Tu pedido ha sido reservado 🛍️</p>
+          <p style="font-weight:bold; color: #000000;">Tu pedido ha sido reservado 🛍️</p>
         `,
         confirmButtonText: "Cerrar"
       });
