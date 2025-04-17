@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Game coin market</title>
+  </head>
+  <body>
+    <!-- Banner -->
+    <header>
+      <img
+        src="assets/Banner.png"
+        alt="Banner Game Coin Market"
+        class="banner" />
+    </header>
+
+    <!-- Titulo principal -->
+    <div>
+      <h1 class="titulo-principal">Tienda de Videojuegos 🎮</h1>
+    </div>
+
+    <!-- Contenedor de productos -->
+    <div id="contenedor-productos" class="game-grid">
+      <!-- Aca se agregan las tarjetas de los juegos dinámicamente -->
+    </div>
+
+    <!-- Carrito de compras -->
+    <div id="carrito-container" class="carrito">
+      <h2>🛒 Carrito</h2>
+      <ul id="carrito-lista"></ul>
+      <p id="total"></p>
+      <button id="vaciar-carrito">Vaciar carrito</button>
+      <button id="finalizar-compra">Finalizar compra</button>
+    </div>
+
+    <!-- Formulario de finalización de compra (modal) -->
+    <div id="formulario-modal" class="modal">
+      <div class="modal-contenido">
+        <span class="cerrar" id="cerrar-modal">&times;</span>
+        <h2>Completa tus datos</h2>
+        <form id="formulario-compra">
+          <input type="text" name="nombre" placeholder="Nombre" required />
+          <input type="text" name="apellido" placeholder="Apellido" required />
+          <input type="text" name="domicilio" placeholder="Domicilio" required />
+          <input type="tarjeta-credito" name="tarjeta-credito" placeholder="tarjeta-credito" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <button type="submit">Confirmar pedido</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Promos -->
+    <div class="promos">
+      <p>
+        Comprando más de 3 juegos obtenés un descuento del 30%, y si comprás 5
+        obtenés un 40% de descuento!!!
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="contenedor-footer">
+        <p>Todos los derechos reservados</p>
+      </div>
+      <h3 class="titulo-final">&copy; Herrera.M | Herrera Manuel Agustin</h3>
+    </footer>
+
+    <!-- Script principal -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+[
+    {
+      "nombre": "DOOM - The Dark Ages",
+      "precio": 115098,
+      "imagenes": [
+        "assets/img-games/DOOM.png",
+        "assets/img-games/DOOM2.jpg",
+        "assets/img-games/DOOM3.jpg",
+        "assets/img-games/DOOMg.webp"
+      ]
+    },
+    {
+      "nombre": "Metal Gear Solid Delta",
+      "precio": 60830,
+      "imagenes": [
+        "assets/img-games/MetalGear.png",
+        "assets/img-games/MetalGear2.png",
+        "assets/img-games/MetalGearG.webp"
+      ]
+    },
+    {
+        "nombre": "Black Myth Wukong",
+        "precio": 115098,
+        "imagenes": [
+          "assets/img-games/BMW.png",
+          "assets/img-games/BMW2.png",
+          "assets/img-games/BMW3.png",
+          "assets/img-games/BMWG.webp"
+        ]
+      },
+      {
+        "nombre": "Elden Ring + Shadow of the Erdtree",
+        "precio": 113543,
+        "imagenes": [
+          "assets/img-games/EldenRing.jpg",
+          "assets/img-games/EldenRing2.jpg",
+          "assets/img-games/EldenRingdlc.png",
+          "assets/img-games/EldenRingdlc2.png"
+        ]
+      },
+      {
+        "nombre": "Halo Infinite",
+        "precio": 30000,
+        "imagenes": [
+          "assets/img-games/HALO.png",
+          "assets/img-games/HALO2.png"
+        ]
+      },
+      {
+        "nombre": "God Of War Ragnarok",
+        "precio": 99492,
+        "imagenes": [
+          "assets/img-games/GOW.jpg",
+          "assets/img-games/GOWG.webp"
+        ]
+      },
+      {
+        "nombre": "Devil May Cry V - Vergil",
+        "precio": 41800,
+        "imagenes": [
+          "assets/img-games/DMC2.png",
+          "assets/img-games/DMC3.png",
+          "assets/img-games/DMC4.png",
+          "assets/img-games/DMC5.png"
+        ]
+      },
+      {
+        "nombre": "Cyberpunk 2077",
+        "precio": 30000,
+        "imagenes": [
+          "assets/img-games/Cyberpunk.png",
+          "assets/img-games/cyberpunk2.png"
+        ]
+      },
+      {
+        "nombre": "The First Berserket: KHAZAN",
+        "precio": 130351,
+        "imagenes": [
+          "assets/img-games/KHAZAN.png",
+          "assets/img-games/KHAZAN2.png"
+        ]
+      }
+]
+  
